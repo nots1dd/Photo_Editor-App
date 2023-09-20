@@ -6,11 +6,6 @@ import 'package:image_picker/image_picker.dart';
 import 'package:image_editor_plus/image_editor_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-//Future is a function that describes a parameter to be undefined presently, however it will be defined at any point in the future
-//await is an async keyword that is used to execute future function
-//in order for the buttons to be mutable, we made a stateful widget as the homepage.
-//'?' after a keyword denotes that it might be a null var and '!' after a keyword denotes that the var cannot be null.
-
 void main() {
   runApp(const MainApp());
 }
